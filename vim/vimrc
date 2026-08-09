@@ -18,7 +18,9 @@ endtry
 
 set relativenumber
 set number
-set rtp^="/Users/lukewang/.opam/default/share/ocp-indent/vim"
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" Only for OCaml development
+" set rtp^="~/.opam/default/share/ocp-indent/vim"

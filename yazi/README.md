@@ -6,7 +6,10 @@ brew install yazi ffmpeg-full sevenzip jq poppler fd ripgrep fzf zoxide resvg im
 brew link ffmpeg-full imagemagick-full -f --overwrite
 ```
 
-**Install Theme**
+## Install Theme
+
 ```zsh
 ya pkg add BennyOe/tokyo-night
 ```
+
+Note: yazi files should be put in `~/.config/yazi/`

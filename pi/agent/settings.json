@@ -1,0 +1,27 @@
+{
+  "lastChangelogVersion": "1.4.0",
+  "packages": [
+    "npm:pi-memory-md",
+    "npm:pi-web-access",
+    "npm:pi-subagents",
+    "npm:pi-mcp-adapter",
+    "context-mode",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:pi-permission-system",
+    "npm:pi-caveman",
+    "npm:pi-sandbox",
+    "npm:@sting8k/pi-vcc"
+  ],
+  "pi-memory-md": {
+    "memoryDir": {
+      "repoUrl": "<MEMORY_REPO>",
+      "localPath": "~/.pi/memory-md",
+      "globalMemory": "global"
+    }
+  },
+  "extensions": [
+    "-builtin:mcp"
+  ],
+  "enableInstallTelemetry": false
+}
